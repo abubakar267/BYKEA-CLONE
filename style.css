@@ -1,0 +1,366 @@
+*{
+    font-family: Axiforma, sans-serif;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #F4F4F4; 
+}
+
+.navbar{
+    display: flex;
+    color: #00AA2F;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top: 12px;
+    width: 22%;
+}
+.navselect{
+    border : none;
+    font-size: 1rem;
+    color:#00AA2F; 
+    width: 115px;
+    background-color: #F4F4F4;
+}
+option{
+    text-align: center;
+}
+optgroup{
+    text-align: center;
+}
+
+.navbar{
+    margin-left: 313px;
+    margin-right: 313px;
+    margin-top: 10px;
+}
+
+.contact{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:white;
+    background-color: #00AA2F;
+    border-color: #00AA2F;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.contact:hover{
+    background-color: white;
+    color:#00AA2F;
+    transition: 0.3s;
+}
+.introparent{
+    display: flex;
+}
+.intro{
+   
+    position:relative;
+    top: 80px;
+    left: 325px;
+    width: 800px;
+}
+.heading{
+    color: #00AA2F;
+}
+.contenthead{
+    line-height: 25px;
+}
+
+.firstinfosection{
+    display: flex;
+    position: relative;
+    top: 150px;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.box{
+    
+    height: 550px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: white;
+    animation: box 3s ease-in-out 0s 1 normal;
+    box-shadow: 2px 2px 12px gray;
+}
+@keyframes box {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.shopspic{
+    background-image: url("bykea3.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-right: 55px;
+    margin-top: 35px;
+}
+
+.shopsheading{
+    background-color: white;
+    color: #00AA2F;
+    font-weight: bold;
+    font-size: 2rem;
+    /* margin-left: ; */
+}
+
+.shopscontent{
+    position: relative;
+    top: 10px;
+    width: 320px;
+    background-color: white; 
+    line-height: 25px;
+}
+
+.shopdiv{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -50px;
+    background-color: white;
+}
+
+.referencebutton{
+   display: flex;
+   position: relative;
+   top: 27px;
+   background-color: white;
+   margin-left: -6px;
+}
+
+button{
+    color: #00AA2F;
+    border: none;
+    background-color: white;
+
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.ridepic{
+    background-image: url("bykea1.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    margin-top: 35px;
+}
+
+.rideheading{
+    background-color: white;
+    color: #00AA2F;
+    font-weight: bold;
+    font-size: 2rem;
+    /* margin-left: ; */
+}
+
+.ridecontent{
+    position: relative;
+    top: 10px;
+    width: 320px;
+    background-color: white; 
+    line-height: 25px;
+}
+
+.ridediv{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -20px;
+    background-color: white;
+}
+
+.deliverypic{
+    background-image: url("bykea2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 35%;
+    background-color: white;
+    margin-top: 35px;
+}
+
+.deliveryheading{
+    background-color: white;
+    color: #00AA2F;
+    font-weight: bold;
+    font-size: 2rem;
+    /* margin-left: ; */
+}
+
+.deliverycontent{
+    position: relative;
+    top: 10px;
+    width: 320px;
+    background-color: white; 
+    line-height: 25px;
+}
+
+.deliverydiv{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top:20px;
+    background-color: white;
+}
+
+
+/* 
+footer */
+body{
+    margin: 0px;
+}
+
+.footer{
+    
+    background-color: #242948;
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    padding-bottom: 0px;
+    height: 450px;
+}
+
+.endinfo{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-left: 280px;
+    margin-right: 320px;
+    
+    width: 100%;
+} 
+.fbox{
+    
+    height: 320px;
+    width: 190px;
+    margin-top: 50px;
+}
+.brand{
+     
+    width: 500px;
+} 
+
+.image{
+    background-image: url(bykealogo2.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: block;
+    height: 90px;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.contactfooter{
+
+    font-size: 1rem;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+.h{
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+ .line{
+
+    width: 66%;
+    left: 320px;
+    height: 3px;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px; 
+ 
+}  
+
+.layer{
+    
+    position:relative;
+    line-height: 50px;
+    height: 50px;
+    top: 580px;
+    color: white;
+    
+
+    
+}
+
+.finalouter{
+    display: flex;
+    justify-content: center;
+    width: 66%;
+    
+    
+}
+
+.middle{
+    display: flex;
+}
+
+.last{
+    display: flex;
+}
+
+/* .finalouter{
+    height: 200px;
+    display: flex;
+    position:relative;
+    color: white;
+    top: 230px;
+    justify-content: space-evenly;
+} */
+ .rights{
+    
+    position: relative;
+    left: 60px;
+    
+    
+}
+.m{
+    margin-left: 12px;
+}
+
+.middle{
+    
+    position: relative;
+    left: 340px;   
+}
+
+
+
+
+
+
+
+.l{
+    margin-left: 15px;
+    font-size: 25px;
+} 
+.last{
+    display: flex;
+    position: relative;
+    left:580px;
+}
